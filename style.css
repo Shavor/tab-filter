@@ -89,6 +89,10 @@ input::placeholder {
 	flex-wrap: wrap;
 }
 
+.item-title {
+	margin-bottom: 10px;
+}
+
 .item {
 	display: flex;
 	flex-direction: column;
