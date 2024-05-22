@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Tabs</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="search-block">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Введите название продукта"
+        />
+        <button type="button" class="search-btn">Поиск</button>
+      </div>
+
+      <div class="filter-block">
+        <button class="filter-btn active" id="all">Все</button>
+        <button class="filter-btn" id="t-shirts">Футболка</button>
+        <button class="filter-btn" id="jeans">Джинсы</button>
+        <button class="filter-btn" id="jacket">Бомбер</button>
+        <button class="filter-btn" id="watches">Часы</button>
+      </div>
+
+      <div class="items-block"></div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
